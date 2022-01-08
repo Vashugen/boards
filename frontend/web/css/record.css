@@ -1,0 +1,68 @@
+
+.record {
+    /*position: relative;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main_title {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 52px;
+    line-height: 1.23;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.main_text {
+    margin-bottom: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    line-height: 1.45;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+
+.product_block{
+    padding-bottom: 50px;
+    padding-top: 0px;
+    line-height: normal;
+    position: relative;
+    background-color: #f0f0f0;
+    box-sizing: content-box;
+}
+
+.board {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.board_pic {
+    max-width: 660px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}

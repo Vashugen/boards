@@ -1,0 +1,99 @@
+.record-block {
+    line-height: normal;
+    position: relative;
+}
+
+.record-div-tagline {
+    height: 100vh;
+    /*background-image: -moz-linear-gradient(top, #ccc, #777);*/
+    background-image: url('/images/back_1.png');
+    height: 700px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.record-div-introduce {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.record-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.t-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.record-container-column {
+    max-width: 1160px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+.record-container-column-wrapper {
+    height: 100vh;
+    display: table-cell;
+    width: 1200px;
+    vertical-align: middle;
+}
+
+.record-tagline-text {
+    text-align: center;
+}
+
+.record-tagline-text-wrapper {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.record-tagline-text-main {
+    color: #ffffff;
+    font-size: 65px;
+    padding: 24px 0px 38px 0px;
+    letter-spacing: 0.5px;
+    line-height: 1.17;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+}
+
+.record-tagline-text-text {
+    color: #ffffff;
+    padding: 0px 0px 30px 0px;
+    font-size: 24px;
+    line-height: 1.50;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 300;
+}
+
+.record-introduce-img {
+    background-image: url('https://static.tildacdn.com/tild3638-3037-4937-b932-363836373135/rawpixelcom256641.jpg');
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
