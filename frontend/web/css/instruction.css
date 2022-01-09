@@ -24,7 +24,8 @@
 }
 
 .record-div-introduce {
-    padding-top: 180px;
+    height: 700px;
+    padding-top: 100px;
     padding-bottom: 180px;
 }
 
@@ -76,8 +77,6 @@
     padding: 24px 0px 38px 0px;
     letter-spacing: 0.5px;
     line-height: 1.17;
-    font-family: 'Montserrat',Arial,sans-serif;
-    font-weight: 600;
 }
 
 .record-tagline-text-text {
@@ -85,15 +84,121 @@
     padding: 0px 0px 30px 0px;
     font-size: 24px;
     line-height: 1.50;
-    font-family: 'Montserrat',Arial,sans-serif;
-    font-weight: 300;
+}
+
+.record-introduce-col {
+    max-width: 560px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
 }
 
 .record-introduce-img {
-    background-image: url('https://static.tildacdn.com/tild3638-3037-4937-b932-363836373135/rawpixelcom256641.jpg');
+    background-image: url('/images/how_it_works.jpg');
     height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.record-introduce-text-wrapper {
+    height: 560px;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.record-introduce-text-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.record-introduce-text-title {
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+    line-height: 1.23;
+    color: #000000;
+}
+.record-introduce-text-key {
+    max-width: 400px;
+    color: #666;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.55;
+}
+.record-introduce-text-line {
+    background-color: #259da8;
+    max-width: 50px;
+    width: 100%;
+    height: 3px;
+    background-color: #666;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.record-introduce-text-text {
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.55;
+    color: #000000;
+}
+
+.text-title {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+}
+
+.text-description {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 300;
+}
+
+.record-how {
+    padding-top: 165px;
+    padding-bottom: 120px;
+    background-color: #ededed;
+}
+
+.record-div-how {
+    box-sizing: border-box;
+}
+
+.record-how-container {
+    text-align: center;
+    max-width: 1200px;
+}
+
+.record-how-col {
+    padding-left: 200px;
+    max-width: 760px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.record-how-text-title {
+    font-size: 52px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    line-height: 1.23;
+    color: #000000;
+}
+
+.record-how-text-text {
+    padding: 41px 0px 0px 0px;
+    font-size: 24px;
+    line-height: 1.50;
+    color: #000000;
+}
