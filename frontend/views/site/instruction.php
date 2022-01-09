@@ -23,10 +23,10 @@ $this->registerCssFile("/css/instruction.css");
     </div>
 </div>
 
-<div class="record">
-    <div class="record-block">
-        <div class="record-div-introduce">
-            <div class="record-container">
+<div class="record-introduce">
+    <div class="record-block-introduce">
+        <div class="t480">
+            <div class="record-container-introduce">
                 <div class="record-introduce-col">
                     <div class="record-introduce-img"></div>
                 </div>
@@ -42,19 +42,19 @@ $this->registerCssFile("/css/instruction.css");
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
-<div class="record" style="line-height: normal; position: relative">
+<!--<div class="record" style="line-height: normal; position: relative">
     <div class="record-how">
         <div class="record-div-how">
-            <div class="record-container">
-                <div class="record-how-col">
-                    <div class="record-how-text-title text-title">Как это работает<br></div>
-                    <div class="record-how-text-text text-description">Всё взаимодействие с плакатом укладывается в несколько простых, но максимально эффективных шагов</div>
-                </div>
+            <div class="record-how-col">
+                <div class="record-how-text-title text-title">Как это работает<br></div>
+                <div class="record-how-text-text text-description">Всё взаимодействие с плакатом укладывается в несколько простых, но максимально эффективных шагов</div>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
+<div class="record"></div>

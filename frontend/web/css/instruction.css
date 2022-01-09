@@ -88,7 +88,6 @@
 
 .record-introduce-col {
     max-width: 560px;
-    display: inline;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -201,4 +200,28 @@
     font-size: 24px;
     line-height: 1.50;
     color: #000000;
+}
+
+.record-introduce {
+    cursor: auto;
+    line-height: normal;
+    position: relative;
+}
+
+
+.record-block-introduce {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+.record-container-introduce {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
 }
