@@ -13,10 +13,10 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         //'css/site.css',
-        'css/cart.css',
-        'css/responsive.css',
-        'css/main_styles.css',
-        'css/record.css',
+        'css/common.css',
+        'css/catalog.css',
+        //'css/record.css',
+        //'css/motivation.css',
     ];
     public $js = [
     ];

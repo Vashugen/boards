@@ -9,13 +9,52 @@ $this->registerCssFile("css/main_styles.css");*/
 $this->registerJsFile("js/index.js");
 ?>
 
-<div class="jumbotron text-center bg-transparent record">
-    <div class="main_title">New You Company (NYC)</div>
-    <div class="main_text">Уникальный прект New You, нацеленный на помощь в визуализации Ваших целей на пути к
-        самосовершенствованию!
+<div class="common-record">
+    <div class="main-padding">
+        <div>
+            <div class="common-container" style="text-align: center;">
+                <div class="main-text">
+                    <div class="main-text-title">New You company (NYC)</div>
+                    <div class="main-text-desc">Уникальный проект NewYou, нацеленный на помощь в визуализации Ваших целей на пути к самосовершенствованию!</div>
+                </div>
+                <div class="main-pics">
+                    <div class="main-pics-pic"></div>
+                    <div class="main-pics-pic"></div>
+                    <div class="main-pics-pic"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <p><button class="btn btn-lg btn-primary" id="instruction">Посмотреть </button></p>
 </div>
+
+<div class="common-record">
+    <div class="catalog-padding">
+        <div>
+            <div class="common-container">
+                <div class="catalog-col" style="max-width: 660px;">
+                    <div class="catalog-col-pic">
+                        <div class="catalog-col-pic-main">
+                            <div class="catalog-col-pic-main-container">
+                                <div class="catalog-slider">
+                                    <div class="catalog-slider-pic"></div>
+                                    <div class="catalog-slider-pic"></div>
+                                    <div class="catalog-slider-pic"></div>
+                                    <div class="catalog-slider-pic"></div>
+                                    <div class="catalog-slider-pic"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-col-pic-slider" style="font-size: 0;"></div>
+                    </div>
+                </div>
+                <div class="catalog-col" style="max-width: 460px;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="products">
     <div class="row product_block">
         <div class="board">
