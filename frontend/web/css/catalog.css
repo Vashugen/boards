@@ -1,0 +1,76 @@
+.main-padding {
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background-color: #ffffff;
+}
+
+.main-text {
+	padding-left: 200px;
+	max-width: 760px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+.main-pics {
+	margin: 0;
+	clear: both;
+}
+
+.main-text-title {
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 52px;
+	line-height: 1.23;
+	font-family: 'Montserrat',Arial,sans-serif;
+	font-weight: 600;
+	color: #000000;
+}
+
+.main-text-desc {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 26px;
+	line-height: 1.45;
+	font-family: 'Montserrat',Arial,sans-serif;
+	font-weight: 300;
+	color: #000000;
+}
+
+.main-pics {
+	margin: 0;
+	clear: both;
+}
+
+.catalog-padding {
+	padding-top: 0px;
+	padding-bottom: 150px;
+	background-color: #f0f0f0;
+}
+
+.catalog-col {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+.catalog-col-pic {
+	position: relative;
+	overflow: hidden;
+}
+
+.catalog-slider {
+	width: 3300px;
+	height: 495px;
+	transform: translateX(-660px);
+	touch-action: pan-y;
+}
+
+.catalog-slider-pic {
+	width: 660px;
+}

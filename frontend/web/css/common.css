@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.common-body {
+    margin-left: 0px;
+    padding-top: 60px;
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.common-record {
+    cursor: auto;
+    line-height: normal;
+    position: relative;
+}
+
+.common-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.catalog-col-pic-main-container {
+    overflow: hidden;
+    position: relative;
+}
