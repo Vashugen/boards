@@ -24,9 +24,6 @@
 	margin-right: auto;
 	font-size: 52px;
 	line-height: 1.23;
-	font-family: 'Montserrat',Arial,sans-serif;
-	font-weight: 600;
-	color: #000000;
 }
 
 .main-text-desc {
@@ -35,9 +32,6 @@
 	margin-right: auto;
 	font-size: 26px;
 	line-height: 1.45;
-	font-family: 'Montserrat',Arial,sans-serif;
-	font-weight: 300;
-	color: #000000;
 }
 
 .main-pics {
@@ -69,8 +63,25 @@
 	height: 495px;
 	transform: translateX(-660px);
 	touch-action: pan-y;
+	position: relative;
+	overflow: hidden;
 }
 
 .catalog-slider-pic {
 	width: 660px;
+	float: left;
+}
+
+.catalog-slider-pic-wrapper {
+	position: relative;
+}
+
+.catalog-input-hidden {
+	visibility: hidden;
+	display: block;
+	line-height: normal;
+	margin: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-size: inherit;
 }

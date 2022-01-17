@@ -14,8 +14,8 @@ $this->registerJsFile("js/index.js");
         <div>
             <div class="common-container" style="text-align: center;">
                 <div class="main-text">
-                    <div class="main-text-title">New You company (NYC)</div>
-                    <div class="main-text-desc">Уникальный проект NewYou, нацеленный на помощь в визуализации Ваших целей на пути к самосовершенствованию!</div>
+                    <div class="main-text-title common-font-title">New You company (NYC)</div>
+                    <div class="main-text-desc common-font-desc">Уникальный проект NewYou, нацеленный на помощь в визуализации Ваших целей на пути к самосовершенствованию!</div>
                 </div>
                 <div class="main-pics">
                     <div class="main-pics-pic"></div>
@@ -35,12 +35,35 @@ $this->registerJsFile("js/index.js");
                     <div class="catalog-col-pic">
                         <div class="catalog-col-pic-main">
                             <div class="catalog-col-pic-main-container">
-                                <div class="catalog-slider">
-                                    <div class="catalog-slider-pic"></div>
-                                    <div class="catalog-slider-pic"></div>
-                                    <div class="catalog-slider-pic"></div>
-                                    <div class="catalog-slider-pic"></div>
-                                    <div class="catalog-slider-pic"></div>
+                                <div class="catalog-slider"> <!--data-->
+                                    <div class="catalog-slider-pic">
+                                        <div class="catalog-slider-pic-wrapper">
+                                            <div class=""></div>
+                                            <input class="container-absolute catalog-input-hidden" type="file" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="catalog-slider-pic">
+                                        <div class="catalog-slider-pic-wrapper">
+                                            <div class=""></div>
+                                            <input class="container-absolute catalog-input-hidden" type="file" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="catalog-slider-pic">
+                                        <div class="catalog-slider-pic-wrapper">
+                                            <div class=""></div>
+                                            <input class="container-absolute catalog-input-hidden" type="file" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="catalog-slider-pic">
+                                        <div class="catalog-slider-pic-wrapper">
+                                            <div class=""></div>
+                                            <input class="container-absolute catalog-input-hidden" type="file" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="catalog-slider-pic"><div class="catalog-slider-pic-wrapper">
+                                            <div class=""></div>
+                                            <input class="container-absolute catalog-input-hidden" type="file" accept="image/*">
+                                        </div></div>
                                 </div>
                             </div>
                         </div>

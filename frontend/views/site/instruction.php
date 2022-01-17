@@ -1,60 +1,46 @@
 <?php
-$this->registerCssFile("/css/instruction.css");
+
 ?>
 
 <!--record-->
-<div class="record">
-    <div class="record-block">
-        <div class="record-div-tagline">
-            <div class="record-container t-container">
-                <div class="record-container-column">
-                    <div class="record-container-column-wrapper">
-                        <div class="record-tagline-text">
-                            <div class="record-tagline-text-wrapper">
-                                <div class="record-tagline-text-main text-title">New You Company (NYC)</div>
-                                <div class="record-tagline-text-text text-description">Каждый путь начинается с первого шага!</div>
+<div class="common-record">
+    <div>
+        <div class="instriction-main">
+            <div class="instruction-main-pic"></div>
+            <div class="common-container instruction-main-text-container">
+                <div class="instruction-main-col">
+                    <div class="instruction-main-col-wrapper">
+                        <div class="instruction-main-text">
+                            <div class="instruction-main-text-wrapper">
+                                <div class="instruction-main-text-title common-font-title">New You Company (NYC)</div>
+                                <div class="instruction-main-text-desc common-font-desc">Каждый путь начинается с первого шага!</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
-<div class="record-introduce">
-    <div class="record-block-introduce">
-        <div class="t480">
-            <div class="record-container-introduce">
-                <div class="record-introduce-col">
-                    <div class="record-introduce-img"></div>
+<div class="common-container">
+    <div class="about_padding">
+        <div>
+            <div class="common-container">
+                <div class="about_column">
+                    <div class="about_pic"></div>
+                    <input class="about-input-hidden" type="file" accept="image/*">
                 </div>
-                <div class="record-introduce-col">
-                    <div class="record-introduce-text-wrapper">
-                        <div class="record-introduce-text-align">
-                            <div class="record-introduce-text-title text-title">О нашей компании</div>
-                            <div class="record-introduce-text-key text-description">Ключевые слова о компании</div>
-                            <div class="record-introduce-text-line"></div>
-                            <div class="record-introduce-text-text text-description">Коротко представьтесь и расскажите о компании или сервисе в 3-4 строках. С какими клиентами вы работаете, что вас вдохновляет. Чем гордится ваша команда, какие у нее ценности и мотивация.</div>
+                <div class="about_column">
+                    <div class="about-text">
+                        <div class="about-middle">
+                            <div class="about-text-title common-font-title">О нашей компании</div>
+                            <div class="about-text-line"></div>
+                            <div class="about-text-desc common-font-desc"> Коротко представьтесь и расскажите о компании или сервисе в 3-4 строках. С какими клиентами вы работаете, что вас вдохновляет. Чем гордится ваша команда, какие у нее ценности и мотивация. </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-
-<!--<div class="record" style="line-height: normal; position: relative">
-    <div class="record-how">
-        <div class="record-div-how">
-            <div class="record-how-col">
-                <div class="record-how-text-title text-title">Как это работает<br></div>
-                <div class="record-how-text-text text-description">Всё взаимодействие с плакатом укладывается в несколько простых, но максимально эффективных шагов</div>
-            </div>
-        </div>
-    </div>
-</div>-->
-
-<div class="record"></div>

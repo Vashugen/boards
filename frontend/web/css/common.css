@@ -38,7 +38,38 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
     width: 100%;
 }
 
+.common-container::after, .common-container::before {
+    display: table;
+    content: " ";
+}
+
+.catalog-slider::after, .catalog-slider::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .catalog-col-pic-main-container {
     overflow: hidden;
     position: relative;
+}
+
+.common-font-title {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.common-font-desc {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.container-absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 0px;
 }

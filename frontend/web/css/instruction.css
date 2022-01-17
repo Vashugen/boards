@@ -1,12 +1,10 @@
-.record-block {
-    line-height: normal;
-    position: relative;
-}
-
-.record-div-tagline {
+.instriction-main {
     height: 100vh;
-    /*background-image: -moz-linear-gradient(top, #ccc, #777);*/
-    background-image: url('/images/back_1.png');
+    background-image: -webkit-linear-gradient(top, #ccc, #777);
+    background-image: -moz-linear-gradient(top, #ccc, #777);
+    background-image: -o-linear-gradient(top, #ccc, #777);
+    background-image: -ms-linear-gradient(top, #ccc, #777);
+    background-image: linear-gradient(top, #ccc, #777);
     height: 700px;
     width: 100%;
     -webkit-background-size: cover;
@@ -23,13 +21,34 @@
     overflow: hidden;
 }
 
-.record-div-introduce {
+.instruction-main-pic {
+    background-image: url('/images/back_1.png');
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center bottom;
     height: 700px;
-    padding-top: 100px;
-    padding-bottom: 180px;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: unset;
 }
 
-.record-container {
+.instruction-main-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -37,15 +56,7 @@
     width: 100%;
 }
 
-.t-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.record-container-column {
+.instruction-main-col {
     max-width: 1160px;
     display: inline;
     float: left;
@@ -54,86 +65,109 @@
     width: 100%;
 }
 
-
-.record-container-column-wrapper {
+.instruction-main-col-wrapper {
     height: 100vh;
+    height: 700px;
     display: table-cell;
     width: 1200px;
     vertical-align: middle;
 }
 
-.record-tagline-text {
+.instruction-main-text {
     text-align: center;
 }
 
-.record-tagline-text-wrapper {
+.instruction-main-text-wrapper {
     padding-top: 42px;
     padding-bottom: 42px;
 }
 
-.record-tagline-text-main {
+.instruction-main-text-title{
     color: #ffffff;
     font-size: 65px;
+    color: #fff;
     padding: 24px 0px 38px 0px;
     letter-spacing: 0.5px;
     line-height: 1.17;
 }
 
-.record-tagline-text-text {
+.instruction-main-text-desc {
     color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #fff;
     padding: 0px 0px 30px 0px;
     font-size: 24px;
     line-height: 1.50;
 }
 
-.record-introduce-col {
+.about_padding {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.about_container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.about_column {
     max-width: 560px;
+    display: inline;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
     width: 100%;
 }
 
-.record-introduce-img {
-    background-image: url('/images/how_it_works.jpg');
+.about_pic {
+    background-image: url('/images/how_it_works.png');
     height: 560px;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.record-introduce-text-wrapper {
+.about-input-hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 0px;
+    display: block;
+    line-height: normal;
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-size: inherit;
+}
+
+.about-text {
     height: 560px;
     display: table;
     width: 100%;
+    height: 100%;
     text-align: center;
 }
 
-.record-introduce-text-align {
+.about-middle {
     display: table-cell;
     vertical-align: middle;
 }
 
-.record-introduce-text-title {
+.about-text-title {
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     font-size: 42px;
     line-height: 1.23;
-    color: #000000;
 }
-.record-introduce-text-key {
-    max-width: 400px;
-    color: #666;
-    margin-bottom: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 16px;
-    line-height: 1.55;
-}
-.record-introduce-text-line {
+
+.about-text-line {
     background-color: #259da8;
     max-width: 50px;
     width: 100%;
@@ -143,85 +177,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-.record-introduce-text-text {
+
+.about-text-desc {
     margin-top: 28px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
     line-height: 1.55;
-    color: #000000;
-}
-
-.text-title {
-    font-family: 'Montserrat',Arial,sans-serif;
-    font-weight: 600;
-}
-
-.text-description {
-    font-family: 'Montserrat',Arial,sans-serif;
-    font-weight: 300;
-}
-
-.record-how {
-    padding-top: 165px;
-    padding-bottom: 120px;
-    background-color: #ededed;
-}
-
-.record-div-how {
-    box-sizing: border-box;
-}
-
-.record-how-container {
-    text-align: center;
-    max-width: 1200px;
-}
-
-.record-how-col {
-    padding-left: 200px;
-    max-width: 760px;
-    display: inline;
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
-}
-
-.record-how-text-title {
-    font-size: 52px;
-    padding-top: 8px;
-    padding-bottom: 3px;
-    line-height: 1.23;
-    color: #000000;
-}
-
-.record-how-text-text {
-    padding: 41px 0px 0px 0px;
-    font-size: 24px;
-    line-height: 1.50;
-    color: #000000;
-}
-
-.record-introduce {
-    cursor: auto;
-    line-height: normal;
-    position: relative;
-}
-
-
-.record-block-introduce {
-    padding-top: 180px;
-    padding-bottom: 180px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #333;
-}
-
-.record-container-introduce {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    width: 100%;
 }
